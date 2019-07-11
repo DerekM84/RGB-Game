@@ -1,0 +1,177 @@
+body {
+    background-color: aliceblue;
+}
+
+.topSection {
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.header {
+    margin-left: 19%;
+    width: 60%;
+    min-width: 30%;
+    height: 70%;
+    padding: 20px;
+    text-align: center;
+    font-family:  'Times New Roman', Times, serif;
+    background-color: rgb(25, 25, 95);
+    color: peachpuff;
+    border-radius:15px;
+    border: 1px solid;
+    min-width: 20%;
+}
+
+div.header:hover {
+    min-width: 30%;
+    margin-left: 19%;
+    width: 60%;
+    height: 70%;
+    padding: 20px;
+    text-align: center;
+    font-family:  'Times New Roman', Times, serif;
+    background-color: rgb(25, 25, 95);
+    border-radius:15px;
+    border: 1px solid;
+    min-width: 20%;
+    color: white;
+    text-shadow: 0 0 30px black;
+    box-shadow: 0 0 35px black;
+}
+
+#buttonsOutput {
+    margin-bottom: 40px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.message {
+    height: 50px;
+    padding-top: 22px;
+    min-width: 10%;
+    margin-right: 6%;
+    background-color: rgb(25, 25, 95);
+    border-radius: 15px;
+    color: peachpuff;
+    text-align: center;
+    border: 1px solid;
+}
+.message:hover {
+    height: 50px;
+    color:white;
+    background-color:rgb(72, 71, 155);
+    zoom: 110%;
+    text-shadow: 0 0 6px black;
+    box-shadow: 0 0 35px #8ac9f3;
+}
+
+.beginButton {
+    padding-top: 22px;
+    height: 50px;
+    min-width: 10%;
+    margin-left: 22%;
+    margin-right:5%;
+    background-color: rgb(25, 25, 95);
+    border-radius: 15px;
+    color: peachpuff;
+    text-align:center;
+    border: 1px solid;
+
+}
+
+.beginButton:hover {
+    height: 50px;
+    color:white;
+    background-color:rgb(72, 71, 155);
+    zoom: 110%;
+    text-shadow: 0 0 6px black;
+    box-shadow: 0 0 35px #8ac9f3;
+}
+
+
+
+.value {
+    min-width: 17%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(25, 25, 95);
+    border-radius: 15px;
+    font-size: 22px;
+    color: peachpuff;
+    text-align: center;
+    border: 1px solid;
+    height: 60px;
+    padding-top: 22px;
+}
+
+.value:hover {
+        min-width: 17%;
+        margin-left:5%;
+        margin-right: 5%;
+        background-color: rgb(25, 25, 95);
+        border-radius: 15px;
+        font-size: 22px;
+        color: white;
+        text-shadow: 0 0 30px black;
+        text-align: center;
+        border: 1px solid;
+        zoom: 110%;
+        height: 60px;
+        padding-top: 22px;
+        box-shadow: 0 0 35px black;
+    }
+
+.tileSection {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column-center;
+    min-height: 500px;
+    min-width: 700px;
+    
+}
+
+.tile {
+    margin: auto;
+    height: 5%;
+    width: 15%;
+    padding: 10%;
+    background-color: peachpuff;
+    background-size:100% 100%;
+    background-position: center;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+
+.tile:hover {
+    height: 125px;
+    width: 125px;
+    margin: auto;
+    background-position: center;
+}
+
+.questionMark {
+    height: 135px;
+    width: 135px;
+    position: center;
+    justify-content: center;
+}
+.left {
+    width: 33%;
+
+
+}
+.middle {
+    width: 33%;
+    
+
+}
+
+.right {
+    width: 33%;
+       
+}
+
